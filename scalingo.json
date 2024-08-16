@@ -2,7 +2,7 @@
     "name": "الصيد ",
     "description": "• صيد يوزرات",
     "addons": ["scalingo-postgresql"],
-    "keywords": ["JoKeRUB", "ai","telegram"],
+    "keywords": ["fifthon.py", "ai","telegram"],
     "repository": "https://github.com/aaalll1/No",
     "logo": "https://telegra.ph/file/fc5f29552badb4675371b.jpg",
     "stack": "container",
