@@ -3,21 +3,21 @@
     "description": "• صيد يوزرات",
     "addons": ["scalingo-postgresql"],
     "keywords": ["JoKeRUB", "ai","telegram"],
-    "repository": "https://github.com/MohammedRD313/J1",
+    "repository": "https://github.com/aaalll1/No",
     "logo": "https://telegra.ph/file/fc5f29552badb4675371b.jpg",
     "stack": "container",
     "env": {
-        "STRING_SESSION": {
+        "TERMUX": {
             "description": "كـــود جلســة تيــرمكــس -",
             "required": true
         },
-        "TG_BOT_TOKEN": {
+        "TOKEN": {
             "description": "تـــوكـــن البـــوت المســاعـد الخــاص بك ",
             "required": true,
             "value":""
         },
-        "ALIVE_NAME": {
-            "description": "هنا اسم حسابك التلي",
+        "BOT_USERNAME": {
+            "description": "يوزر البوت ",
             "required": true,
             "value":""
         },
@@ -26,20 +26,10 @@
             "required": true,
             "value":" "
         },
-        "API_HASH": {
+        "APP_HASH": {
             "description": "كـود ايبي هـاش",
             "required": true,
             "value":" "
-        },
-        "TZ": {
-            "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
-            "required": true,
-            "value": "Asia/Baghdad"
-        },
-        "ENV": {
-            "description": "لا تغيــرهـــا",
-            "required": true,
-            "value": "ANYTHING"
         }
 
     }
